@@ -30,12 +30,12 @@ public class ClienteDaoImpl implements ClienteDao{
 			
 			rs = ps.executeQuery();
 			while(rs.next()) {
-				client.setNombres(rs.getString("Nombres"));
-				client.setNombres(rs.getString("Apellidos"));
-				client.setFecha(rs.getString("Fecha"));
-				client.setNomProducto(rs.getString("NomProducto"));
-				client.setPrecio(rs.getDouble("Precio"));
-				client.setCantidad(rs.getInt("Cantidad"));
+				client.setNombres(rs.getString("nombres"));
+				client.setApellidos(rs.getString("apellidos"));
+				client.setFecha(rs.getString("fecha"));
+				client.setNomProducto(rs.getString("nomprod"));
+				client.setPrecio(rs.getDouble("precio"));
+				client.setCantidad(rs.getInt("cantidad"));
 				
 				
 				

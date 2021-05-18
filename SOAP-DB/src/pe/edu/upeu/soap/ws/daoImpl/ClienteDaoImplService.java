@@ -1,5 +1,5 @@
-package pe.edu.upeu.soap.ws.daoImpl;
 
+package pe.edu.upeu.soap.ws.daoImpl;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "ClienteDaoImplService", targetNamespace = "http://daoImpl.ws.soap.upeu.edu.pe/", wsdlLocation = "http://localhost:6060/soap/cliente/venta?wsdl")
+@WebServiceClient(name = "ClienteDaoImplService", targetNamespace = "http://daoImpl.ws.soap.upeu.edu.pe/", wsdlLocation = "http://localhost:6061/soap/cliente/venta?wsdl")
 public class ClienteDaoImplService
     extends Service
 {
@@ -30,7 +30,7 @@ public class ClienteDaoImplService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:6060/soap/cliente/venta?wsdl");
+            url = new URL("http://localhost:6061/soap/cliente/venta?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

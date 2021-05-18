@@ -6,7 +6,7 @@ import pe.edu.upeu.soap.ws.daoImpl.ClienteDaoImpl;
 
 public class ClientePublico {
 	public static void main(String[] args) {
-		Endpoint.publish("http://localhost:6060/soap/cliente/venta", new ClienteDaoImpl());;
+		Endpoint.publish("http://localhost:6061/soap/cliente/venta", new ClienteDaoImpl());;
 		System.out.println("Ejecutando......!");
 	}
 }
