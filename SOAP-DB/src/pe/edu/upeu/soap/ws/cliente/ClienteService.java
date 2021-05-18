@@ -12,6 +12,7 @@ public class ClienteService {
 		System.out.println("Nombre del producto: " + pd.readVenta("2021-05-07", "2021-12-12", 1).getNomProducto()); 
 		System.out.println("Precio: " + pd.readVenta("2021-05-07", "2021-12-12", 1).getPrecio());
 		System.out.println("Cantidad: " + pd.readVenta("2021-05-07", "2021-12-12", 1).getCantidad());
+		
 
 	}
 	
